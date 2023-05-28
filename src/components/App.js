@@ -1,19 +1,11 @@
 import React from "react";
 import './App.css';
-import Header from "./Header";
-import Donate from "./Donate";
-import HowWorks from "./HowWorks";
-import AddContact from "./AddContact";
+import NavBar from "./NavBar"
 
 function App() {
   return (
     <div>
-      <Header/>
-      <AddContact/>
-      {/*
-      <Donate/>
-      <HowWorks/> 
-      */}
+      <NavBar/>
     </div>
   )
 }
